@@ -5,7 +5,7 @@
 Overall framework of the proposed SFIFN. The model takes an input image and employs a Frequency Dual-Branch Encoder (with Transformer and CNN branches) to extract multi-scale features from both spatial and frequency domains. The Transformer branch captures long-range dependencies and diffusion patterns via FFE-Trans with EFCA and MS-FFN, while the CNN branch extracts local textures and edge details via FMLM with DEB and FMA. The Multi-level Joint Domain Fusion (MJDF) module aligns local and global contexts via frequency-domain cross-attention and smoke-aware axial attention. Finally, the Multi-scale Fusion Dual-domain Decoder (MFDD) progressively upsamples and integrates spatial and frequency information through gated fusion, deformable convolution, and frequency-enhanced upsampling. The Frequency Contrastive Loss (FCL) explicitly constrains smoke-background distribution differences in the frequency domain, forming cross-domain synergistic supervision with spatial-domain loss.
 
 <p align="center">
-  <img src="./fram.jpg" alt="SFIFN Framework" width="90%">
+  <img src="https://raw.githubusercontent.com/AnniyeYan/SFIFN/main/fram.jpg" alt="SFIFN Framework" width="90%">
 </p>
 
 > **Figure 1:** Overall framework of the proposed SFIFN.
