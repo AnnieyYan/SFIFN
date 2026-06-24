@@ -14,11 +14,11 @@ Overall framework of the proposed SFIFN. The model takes an input image and empl
 
 We evaluate SFIFN on three smoke segmentation datasets:
 
-- **USS** [[1]](https://ieeexplore.ieee.org/document/10335563): A real-world smoke segmentation dataset containing 3,217 images with pixel-level annotations. The dataset is split into training and testing sets with a ratio of 8:2.
+- **USS** : A real-world smoke segmentation dataset containing 3,217 images with pixel-level annotations. The dataset is split into training and testing sets with a ratio of 8:2.
 
-- **SYN70K** [[2]](https://www.sciencedirect.com/science/article/abs/pii/S0925231219309378): A synthetic smoke dataset comprising 70,632 training images and 3,000 test images, including three test subsets (DS01, DS02, DS03).
+- **SYN70K** : A synthetic smoke dataset comprising 70,632 training images and 3,000 test images, including three test subsets (DS01, DS02, DS03).
 
-- **SmokeSeg** [[3]](https://www.sciencedirect.com/science/article/abs/pii/S0031320325007097): A challenging real-world dataset focusing on small-scale, low-contrast, highly transparent, and blurred-boundary smoke regions, containing 6,144 images.
+- **SmokeSeg** : A challenging real-world dataset focusing on small-scale, low-contrast, highly transparent, and blurred-boundary smoke regions, containing 6,144 images.
 
 Please organize the data as follows:
 data/
